@@ -1,0 +1,36 @@
+{
+  "name": "btchart",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Charting Tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base src --inline --mode development --open --watch",
+    "prod": "webpack --mode production",
+    "server": "nodemon server/server.js"
+  },
+  "author": "rebecca",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
+  }
+}
